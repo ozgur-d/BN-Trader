@@ -146,8 +146,13 @@ namespace BNTrader
             try { 
             var databag = new ConcurrentBag<Account>();
             var bal = await binance.GetBalanceAsync();
+                if (bal == null)
+                {
+                    Logger.Log("Config file is missing. Or IP Limit Restriction. Or Unknown Error. CHECK BALANCE FAILED");
+                    return;
+                }
 
-            var tasks = bal.balances.Select(async x =>
+                var tasks = bal.balances.Select(async x =>
             {
                 if (x.free > 0 || x.locked > 0)
                 {
