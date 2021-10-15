@@ -58,6 +58,7 @@ namespace BNTrader
             // 
             // txtSymbol
             // 
+            this.txtSymbol.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtSymbol.Location = new System.Drawing.Point(12, 43);
             this.txtSymbol.Name = "txtSymbol";
             this.txtSymbol.Size = new System.Drawing.Size(143, 23);
