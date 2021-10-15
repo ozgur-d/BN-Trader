@@ -11,4 +11,10 @@
     <ProjectReference Include="..\Binance.NetCore\Binance.NetCore\Binance.NetCore\Binance.NetCore.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
