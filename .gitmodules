@@ -1,0 +1,3 @@
+[submodule "Binance.NetCore"]
+	path = Binance.NetCore
+	url = https://github.com/ozgur-d/Binance.NetCore
