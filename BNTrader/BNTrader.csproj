@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Binance.NetCore\Binance.NetCore\Binance.NetCore\Binance.NetCore.csproj" />
+    <ProjectReference Include="..\Binance.NetCore\Binance.NetCore\Binance.NetCore\Binance.NetCore.csproj" />
   </ItemGroup>
 
 </Project>

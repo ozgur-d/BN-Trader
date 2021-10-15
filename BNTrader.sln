@@ -4,13 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BNTrader", "BNTrader\BNTrader.csproj", "{2ABFCEA4-AA3F-4159-8951-CBC2787C9A0A}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5C3E1873-695C-49AD-9349-02EFB42E318B} = {5C3E1873-695C-49AD-9349-02EFB42E318B}
-	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binance.NetCore", "..\Binance.NetCore\Binance.NetCore\Binance.NetCore\Binance.NetCore.csproj", "{5C3E1873-695C-49AD-9349-02EFB42E318B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binance.NetCore.Tests", "..\Binance.NetCore\Binance.NetCore\Binance.NetCore.Tests\Binance.NetCore.Tests.csproj", "{A99E110F-50F2-4BB0-AA91-3D2CDDC12FCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binance.NetCore", "Binance.NetCore\Binance.NetCore\Binance.NetCore\Binance.NetCore.csproj", "{D4D15743-166C-44A9-ABB2-E698ECBB9DE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,14 +17,10 @@ Global
 		{2ABFCEA4-AA3F-4159-8951-CBC2787C9A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ABFCEA4-AA3F-4159-8951-CBC2787C9A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ABFCEA4-AA3F-4159-8951-CBC2787C9A0A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C3E1873-695C-49AD-9349-02EFB42E318B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C3E1873-695C-49AD-9349-02EFB42E318B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C3E1873-695C-49AD-9349-02EFB42E318B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C3E1873-695C-49AD-9349-02EFB42E318B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A99E110F-50F2-4BB0-AA91-3D2CDDC12FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A99E110F-50F2-4BB0-AA91-3D2CDDC12FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A99E110F-50F2-4BB0-AA91-3D2CDDC12FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A99E110F-50F2-4BB0-AA91-3D2CDDC12FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D15743-166C-44A9-ABB2-E698ECBB9DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D15743-166C-44A9-ABB2-E698ECBB9DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D15743-166C-44A9-ABB2-E698ECBB9DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D15743-166C-44A9-ABB2-E698ECBB9DE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
