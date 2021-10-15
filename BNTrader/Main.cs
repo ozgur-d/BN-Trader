@@ -143,6 +143,7 @@ namespace BNTrader
         
         private async Task checkBalances()
         {
+            try { 
             var databag = new ConcurrentBag<Account>();
             var bal = await binance.GetBalanceAsync();
 
@@ -174,6 +175,12 @@ namespace BNTrader
             dataAccount.Refresh();
 
             RequestPerMinuteCount++;
+            }
+            catch (Exception e)
+            {
+                Logger.Log(e.Message);
+                Logger.Log("Config file is missing. Or IP Limit Restriction. Or Unknown Error. CHECK BALANCE FAILED");
+            }
         }
 
         private async Task getOpenOrders(string pair = "")
